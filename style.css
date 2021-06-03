@@ -5,19 +5,20 @@
 body{
     background-color: #8ba1bb;
     font-family: Arial;
+    margin: 0;
 }
 div.contenu{
     background-color: white;
     margin: 40px 8px 40px 8px;
     padding: 0 8px 20px 8px;
     overflow: visible;
-    box-shadow: px 0px 8px 8px rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1) ;
 }
 p.categorie{
     background-color: black;
     color: white;
     display: inline-block;
-
+    margin-bottom: 0;
     margin-top: -15px;
     font-weight: bold;
     font-size: 16px;
@@ -154,11 +155,11 @@ div.colonne{
 
             margin-right: 10%;
         }
-        div.colonne2{
+    div.colonne2{
             
             float: right;
         }
-        div.colonne{
+    div.colonne{
             width: 45%;
         
         }
@@ -168,7 +169,7 @@ div.colonne{
     div.contenu{
         margin-left: auto;
         margin-right: auto;
-        max-width: 650px;
+        width: 645px;
        
     }
 }
